@@ -1,0 +1,46 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.cardiv{
+
+box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-radius: 20px;
+}
+.cardiv img{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px 20px  0px  0px;
+}
+.cardiv div{
+    padding: 15px 20px 10px 20px;
+}
+.carpaddingbottom{
+    border-bottom: 1px  solid black;
+    padding-bottom: 5px;
+}
+.cardiv p{
+    margin-bottom: 0px;
+}
+.cardiv i{
+    color: orange;
+    padding-right: 5px;
+}
+.day{
+    color: rgb(212, 212, 38);
+}
+.row h1{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.cardiv a{
+    text-decoration: none;
+    color: black;
+}
+
+.colpadding{
+    padding-bottom: 30px;
+    border-bottom: 1px  solid black;
+    margin-bottom: 15px;
+}

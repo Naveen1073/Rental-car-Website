@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="customerdetails.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Cabin&family=Dosis&family=Inter:wght@300;500&family=Lato&family=Montserrat:wght@300&family=Oxygen&family=Ubuntu&display=swap"
+    rel="stylesheet">
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="container">
+       
+        <div class="divforform ">
+        <form action="" class="formdiv2">
+            <span>
+            <img src="download.png" alt="">
+            <h2>User Registration</h2> </span>
+            <div class="formgroup">
+                <label for="name">Name :</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="formgroup">
+                <label for="mobile">Mobile :</label>
+                <input type="tel" id="mobile" name="mobile" required>
+            </div>
+            <div class="">
+                <label>Gender :</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </div>
+            <div class="formgroup">
+                <label for="aadhar">Aadhar No :</label>
+                <input type="text" id="aadhar" name="aadhar" required>
+            </div>
+            <div class="">
+                <label for="aadharFile">Aadhar Card :</label>
+                <input type="file" id="aadharFile" name="aadharFile" accept=".pdf, .jpg, .jpeg, .png" required>
+            </div>
+            <div class="">
+                <label for="licenseFile">Driving License :</label>
+                <input type="file" id="licenseFile" name="licenseFile" accept=".pdf, .jpg, .jpeg, .png" required>
+            </div>
+            <div class="form-group group1">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+        </div> 
+        
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+.footerdiv1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footermaindiv h1{
+    font-family: 38px;
+    text-align: center;
+    padding: 20px 0px;
+}
+.footermaindiv{
+    width: 100%;
+    background-color: rgb(23, 23, 24);
+    color: whitesmoke;
+
+}
+
+.ourcompanydiv h3{
+    padding-bottom: 20px;
+    color: blueviolet;
+}
+.fa-plane,.fa-face-smile,.fa-phone-volume,.fa-ship,.fa-arrow-right,.fa-truck-fast,.fa-scissors,.fa-regular{
+    padding-right: 12px;
+}
+.emailfex{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.emailfex h3 i{
+    font-size: 20px;
+    color: whitesmoke;
+}
+.emailfex h3{
+    color: blueviolet;
+}
+.emailfex a{
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+.emailfex2{
+    margin: 40px 0px;
+}
+.footericons i{
+    padding: 10px;
+    border-radius: 50px;
+    background-color: blueviolet;
+    font-size: 25px;
+    margin-right: 10px;
+}
+@media screen and (max-width: 800px) {
+    .footerdiv1{
+        
+
+        padding-left: 30px;
+    }
+    .ourcompanydiv{
+        padding-bottom: 20px;
+    }
+    
+}
